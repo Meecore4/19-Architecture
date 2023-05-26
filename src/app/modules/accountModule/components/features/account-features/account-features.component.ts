@@ -21,7 +21,7 @@ export class AccountFeaturesComponent {
 
 
   generateRandomUser(userTab : User[]){
-    let random = Math.floor(Math.random() * 6);
+    let random = Math.round(Math.random() * 4);
     this.randomUser = userTab[random];
   }
 
